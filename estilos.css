@@ -1,0 +1,181 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #080808;
+    background: linear-gradient(45deg, #778ae0, #110f0f);
+    
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #575656;
+    background: linear-gradient(45deg, #f2f2f2, #ccc);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    width: 100px; /* Ajusta el tamaño según tus necesidades */
+    height: 100px; /* Ajusta el tamaño según tus necesidades */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    border: 2px solid black;
+    margin-right: 10px; /* Espacio a la derecha del logo para separarlo del menú */
+    float: left; /* Alinea el logo a la izquierda */
+    
+}
+
+header {
+    background-color: linear-gradient(45deg, #000000, #777777);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    
+  
+}
+
+main img{
+    width: 100px; /* Ajusta el tamaño según tus necesidades */
+    height: 100px; /* Ajusta el tamaño según tus necesidades */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    border: 2px solid black;
+    margin-right: 10px; /* Espacio a la derecha del logo para separarlo del menú */
+    float: left;
+}
+
+
+/* Estilos para el menú de navegación*/ 
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #ff6600;
+}
+
+/* Estilos para encabezados*/ 
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Estilos para enlaces*/
+a {
+    color: #0077B5;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para secciones*/
+section {
+    margin-bottom: 20px;
+    padding: 50px;
+    background-color:  #faf6f6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#mapa{
+    margin: 0 auto;
+    background-color: gray;
+    border-radius: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    float: right;
+    margin-right: 10px;
+    
+    
+}
+
+
+#mapa h1 {
+    text-align: center;
+    color: wheat;
+}
+#frame #mapa {
+    border-radius: 5px;
+    margin: 15px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer img {
+    width: 80px; /* Ajusta el tamaño según tus necesidades */
+    height: 80px; /* Ajusta el tamaño según tus necesidades */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    border: 2px solid black;
+    margin-right: 10px; /* Espacio a la derecha del logo para separarlo del menú */
+    float: left; /* Alinea el logo a la izquierda */
+    
+}
+
+footer .social-icons{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+
+    footer .social-icons{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+    
+  
+    
+    footer .social-icons .social-icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1px;
+        border-radius: 0px;
+        width: 0%;
+        height: 0%;
+    }
+    
+
+
+
+
+
+
+
+    @media screen and (max-width: 600px) {
+        .container {
+            width: 100%;
+        }
+    }
